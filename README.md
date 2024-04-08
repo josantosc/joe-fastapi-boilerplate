@@ -31,13 +31,13 @@ Decide a name for your new project's directory, you will use it below. For examp
 Go to the directory that will be the parent of your project, and run the command with your project's name:
 
 ```bash
-copier copy https://github.com/tiangolo/full-stack-fastapi-template my-awesome-project --trust
+copier copy https://github.com/josantosc/joe-fastapi-boilerplate my-awesome-project --trust
 ```
 
 If you have `pipx` and you didn't install `copier`, you can run it directly:
 
 ```bash
-pipx run copier copy https://github.com/tiangolo/full-stack-fastapi-template my-awesome-project --trust
+pipx run copier copy https://github.com/josantosc/joe-fastapi-boilerplate my-awesome-project --trust
 ```
 
 **Note** the `--trust` option is necessary to be able to execute a [post-creation script](https://github.com/tiangolo/full-stack-fastapi-template/blob/master/.copier/update_dotenv.py) that updates your `.env` files.
